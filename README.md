@@ -2,7 +2,7 @@
 
 > AI 기반 심리 상담 전 사전 점검 & 상담사 매칭 플랫폼
 
-라포(Rapport)는 심리 상담을 받기 전 AI 챗봇과의 대화를 통해 현재 심리 상태를 파악하고, 그 결과를 바탕으로 적합한 상담사를 추천·예약할 수 있는 서비스입니다. 내담자와 상담사 모두를 위한 전용 화면을 제공하며, 웹과 모바일(Capacitor) 환경을 함께 지원합니다.
+라포(Rapport)는 심리 상담을 받기 전 AI 챗봇과의 대화를 통해 현재 심리 상태를 파악하고, 그 결과를 바탕으로 적합한 상담사를 추천·예약할 수 있는 서비스입니다. 내담자와 상담사 모두를 위한 전용 화면을 제공하며, 웹 환경을 지원합니다.
 
 ---
 
@@ -14,7 +14,6 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-latest-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-latest-000000?style=flat-square&logo=react&logoColor=white)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-latest-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![Capacitor](https://img.shields.io/badge/Capacitor-latest-119EFF?style=flat-square&logo=capacitor&logoColor=white)
 
 | 분류 | 기술 |
 |---|---|
@@ -23,7 +22,6 @@
 | 스타일링 | Tailwind CSS |
 | UI 상태 관리 | Zustand |
 | 서버 상태 관리 | TanStack Query |
-| 모바일 래핑 | Capacitor |
 
 ---
 

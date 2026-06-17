@@ -1,0 +1,92 @@
+import type { Config } from 'tailwindcss'
+
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{ts,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50:  '#E2F5E9',
+          100: '#B8EBCE',
+          200: '#96DEB2',
+          400: '#4FC47E',
+          600: '#28A05A',
+          800: '#1A7A42',
+          900: '#0F4F2B',
+        },
+        accent: {
+          50:  '#FFF8ED',
+          100: '#FDE8C4',
+          200: '#F9D08E',
+          400: '#E8A83E',
+          600: '#C48A25',
+          800: '#8B6420',
+          900: '#5C4012',
+        },
+        neutral: {
+          50:  '#F7F8F7',
+          100: '#E8EBE8',
+          200: '#CDD2CD',
+          400: '#9BA29B',
+          600: '#6B736B',
+          800: '#4A4F4A',
+          900: '#1E221E',
+        },
+        semantic: {
+          'success-bg':   '#E6F4EA',
+          'success-text': '#1B6D32',
+          'warning-bg':   '#FFF3E0',
+          'warning-text': '#A15C07',
+          'error-bg':     '#FEECEC',
+          'error-text':   '#C62828',
+          'info-bg':      '#E8F1FB',
+          'info-text':    '#1565C0',
+        },
+      },
+      fontFamily: {
+        sans: [
+          'Pretendard Variable',
+          'Pretendard',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'system-ui',
+          'Roboto',
+          'sans-serif',
+        ],
+      },
+      fontSize: {
+        'display-mobile': ['26px', { lineHeight: '34px', letterSpacing: '-0.2px' }],
+        'display':        ['32px', { lineHeight: '40px', letterSpacing: '-0.2px' }],
+        'h1-mobile': ['22px', { lineHeight: '30px', letterSpacing: '-0.2px' }],
+        'h1':        ['26px', { lineHeight: '34px', letterSpacing: '-0.2px' }],
+        'h2-mobile': ['19px', { lineHeight: '26px', letterSpacing: '-0.1px' }],
+        'h2':        ['22px', { lineHeight: '30px', letterSpacing: '-0.1px' }],
+        'h3-mobile': ['17px', { lineHeight: '24px', letterSpacing: '0' }],
+        'h3':        ['18px', { lineHeight: '26px', letterSpacing: '0' }],
+        'h4-mobile': ['15px', { lineHeight: '22px', letterSpacing: '0' }],
+        'h4':        ['16px', { lineHeight: '24px', letterSpacing: '0' }],
+        'body-lg-mobile': ['15px', { lineHeight: '24px', letterSpacing: '0' }],
+        'body-lg':        ['16px', { lineHeight: '26px', letterSpacing: '0' }],
+        'body-md': ['14px', { lineHeight: '22px', letterSpacing: '0' }],
+        'caption': ['13px', { lineHeight: '18px', letterSpacing: '0' }],
+        'small':   ['12px', { lineHeight: '16px', letterSpacing: '0' }],
+      },
+      fontWeight: {
+        regular: '400',
+        medium:  '500',
+        bold:    '700',
+      },
+      borderRadius: {
+        'sm':   '8px',
+        'md':   '12px',
+        'lg':   '16px',
+        'xl':   '20px',
+        'full': '9999px',
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config
